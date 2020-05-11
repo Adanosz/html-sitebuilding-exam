@@ -14,3 +14,38 @@ h1 {
   border: solid gold;
   background-color: darkkhaki;
 }
+
+.flex-container{
+  display: flex;
+  height: 500px;
+  width: 500px;
+
+  background-color: greenyellow;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+img {
+  width: 100px;
+  height: 100px;
+ }
+
+.felso {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: auto;
+}
+ 
+.center {
+  flex-direction: row;
+  align-self: center;
+} 
+
+.also {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+
+}
