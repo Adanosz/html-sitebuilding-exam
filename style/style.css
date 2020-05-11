@@ -3,3 +3,14 @@ h1 {
   font-style: inherit;
   font-size: 30pt;
 }
+
+.grid {
+  border-inline-end-width: 250pt;
+  border-width: 250pt;
+  border: dotted;
+}
+
+#unique {
+  border: solid gold;
+  background-color: darkkhaki;
+}
